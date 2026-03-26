@@ -11,7 +11,7 @@ export default function FootBar() {
             <h3 className="text-xl font-bold mb-3">
                 SD Classes</h3>
             <p className="text-white text-sm">
-              Students ki padhai aasaan karne ke liye banaya gaya platform.
+              Empowering students with the right resources to achieve academic excellence.
             </p>
           </div>
           <div>
@@ -32,7 +32,7 @@ export default function FootBar() {
                 <button
                   onClick={() => openWhatsApp("Hello! EduSite ke baare mein jaankari chahiye.")}
                   className="mt-2 bg-white hover:bg-green-600 text-red-900 hover:text-white py-2 px-4 rounded-full text-sm font-bold transition">
-                   WhatsApp Karo
+                   Chat on WhatsApp
                 </button>
               </li>
             </ul>
