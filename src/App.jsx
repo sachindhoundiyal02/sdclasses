@@ -20,7 +20,7 @@ export default function App() {
 
         <main className="grow">
           <Routes>
-            <Route path="/sdclasses" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/formulas" element={<Formulas />} />
             <Route path="/question-papers" element={<QuestionPapers />} />
             <Route path="/login" element={<Login />} />
