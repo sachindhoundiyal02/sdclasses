@@ -20,7 +20,7 @@ export default function App() {
 
         <main className="grow">
           <Routes>
-            <Route path="/" element={<Home />} >
+            <Route path="/" element={<Home />} />
             <Route path="/formulas" element={<Formulas />} />
             <Route path="/question-papers" element={<QuestionPapers />} />
             <Route path="/login" element={<Login />} />
@@ -29,8 +29,7 @@ export default function App() {
             <Route path="/pages/Classes/class-10" element={<Class10 />} />
             {/* <Route path="/pages/Classes/class-11" element={<Class11 />} />
             <Route path="/pages/Classes/Class-12" element={<Class12 />} /> */}
-          </Route>
-               </Routes>
+          </Routes>
         </main>
 
         <FootBar />
